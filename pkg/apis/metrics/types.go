@@ -69,6 +69,8 @@ type PodMetrics struct {
 	Timestamp metav1.Time
 	Window    metav1.Duration
 
+	Pod ContainerMetrics
+
 	// Metrics for all containers are collected within the same time window.
 	Containers []ContainerMetrics
 }

@@ -24,7 +24,7 @@ import (
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	watch "k8s.io/apimachinery/pkg/watch"
 	testing "k8s.io/client-go/testing"
-	v1alpha1 "k8s.io/metrics/pkg/apis/metrics/v1alpha1"
+	v1alpha1 "github.com/egernst/metrics/pkg/apis/metrics/v1alpha1"
 )
 
 // FakePodMetricses implements PodMetricsInterface
